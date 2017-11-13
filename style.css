@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family: IRANSansWeb, "IRANSansWeb Light", "IRANSansWeb Medium", "IRANSansWeb UltraLight";
+	src: url(../IRANSansWeb.ttf);
+}
+*
+{
+	font-family: IRANSansWeb, "IRANSansWeb Light", "IRANSansWeb Medium", "IRANSansWeb UltraLight";
+	  transition: all 500ms ease-out;
+  -webkit-transition: all 500ms ease-out;
+}
+.header
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: 	#363636;
+	background: #FFD600;
+	box-shadow: 0px 0px 80px -28px
+
+}
+.nav
+{
+	padding: 30px;
+}
+.btn
+{
+	background: #FFFFFF;
+	border-radius: 50px;
+	font-weight: bold;
+	padding: 5px 15px;
+	margin-right: 10px;
+	border: 0px;
+	transition-duration: 0.5s;
+}
+.btn:hover
+{
+	color:#323232;
+	background: #BFBFBF;
+	transition-duration: 0.5s;
+}
+
+.btn:
+{
+	border-radius: 50px;
+	color: #C5C5C5;
+	background: #2D2D2D;	
+}
+.btn:hover:enabled
+{
+	color: #C5C5C5;
+	background: #2D2D2D;	
+}
+.overlay {   
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(245,245,245,1.00);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #353535;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+.menu-me
+{
+	background: rgba(0,0,0,0.00);
+	color: #E7E7E7;
+	padding: 20px;
+	border: 0px;
+	font-weight: bold;
+	border-radius: 100%;
+}
+.menu-me:hover
+{
+	background: rgba(255,255,255,0.23);
+}
+.menu:hover
+{
+	background: #D3D3D3;
+}
+#text-head
+{
+	padding: 17px 100px;
+	font-size: 25px;
+}
+.btnmenu
+{
+	padding: 0px 15px;
+ position: fixed;
+
+	left: 0px;
+	right: 50px;
+	
+}
+.imgmenu{
+	width: 25px;
+}
